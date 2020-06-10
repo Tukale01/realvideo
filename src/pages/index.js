@@ -151,7 +151,7 @@ export default class IndexPage extends React.Component {
                 </a>
               </div>
               <div className="col-lg-4 col-sm-6">
-                <a className="portfolio-box" href="img/portfolio/fullsize/5.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
+                <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg" onClick={this.handlePortfolioClick.bind(this, 4)}>
                   <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
@@ -182,7 +182,7 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section bg-dark text-white">
           <div className="container text-center">
-            <h2 className="mb-4"> Do you have a project in mind, Let us know!</h2>
+            <h2 className="mb-4"> Do you have a project in mind, Let us Work Together!</h2>
             <a className="btn btn-light btn-xl" href="https://www.facebook.com/Realvideo.co/" target="_blank">Get Started!</a>
           </div>
         </section>
